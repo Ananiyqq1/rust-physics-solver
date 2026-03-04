@@ -1,0 +1,10 @@
+[package]
+name = "physics_solver"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ananiyqq1 <Ananiyqq1@users.noreply.github.com>"]
+description = "A complex physics engine for solving and visualizing projectile motion, gravity, and oscillations."
+
+[dependencies]
+rand = "0.8"
+serde = { version = "1.0", features = ["derive"] }
